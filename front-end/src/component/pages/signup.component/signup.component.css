@@ -1,0 +1,22 @@
+.wrapper {
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+
+}
+
+.form-wrapper {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+
+#s-body{
+    background-color: aqua;
+}

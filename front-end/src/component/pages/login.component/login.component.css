@@ -1,0 +1,35 @@
+.wrapper {
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+
+}
+
+.form-wrapper {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+
+#h1{
+    font-family: "Courier New",Courier,monospace;
+}
+
+#body{
+    background-color: #A6A57A;
+}
+
+button{
+    color: #A6A57A;
+    background-color: black;
+}
+
+button:hover{
+    background-color: whitesmoke;
+}
