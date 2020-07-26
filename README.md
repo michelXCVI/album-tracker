@@ -2,7 +2,7 @@
 
 Web application that track artists' musical catalog. 
 
-### Technologies 
+## Technologies 
 
 Front-end:
 - React 
