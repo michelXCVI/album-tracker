@@ -23,11 +23,10 @@ export const LoginComponent: React.FC = () =>{
     
     
     return (
-      <div id="body">
-        <div>
+        <body>
           <h1 id="h1">Album Tracker</h1>
-          <hr />
-          <div className="wrapper">
+          <div className="hr" />
+          <section className="wrapper">
             <div className="form-wrapper">
               <h4>Login</h4>
               <form className={classes.root} noValidate autoComplete="off">
@@ -51,8 +50,7 @@ export const LoginComponent: React.FC = () =>{
               <br />
               <button type="submit">Log in</button>
             </div>
-          </div>
-        </div>
-      </div>
+          </section>
+          </body>
     );
 }

@@ -19,7 +19,7 @@ export const SignupComponent: React.FC = () => {
   const classes = useStyles();
 
   return (
-    <body id="s-body">
+    <body>
       <div className="wrapper">
         <div className="form-wrapper">
           <h4>Create An Account</h4>

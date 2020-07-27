@@ -21,7 +21,7 @@
     font-family: "Courier New",Courier,monospace;
 }
 
-#body{
+body{
     background-color: #A6A57A;
 }
 
@@ -32,4 +32,9 @@ button{
 
 button:hover{
     background-color: whitesmoke;
+}
+
+.hr{
+    background-color: black;
+    border-top: 6px solid black;
 }
