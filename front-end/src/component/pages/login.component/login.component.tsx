@@ -23,7 +23,7 @@ export const LoginComponent: React.FC = () =>{
     
     
     return (
-        <body>
+        <div id="login-body">
           <h1 id="h1">Album Tracker</h1>
           <div className="hr" />
           <section className="wrapper">
@@ -51,6 +51,6 @@ export const LoginComponent: React.FC = () =>{
               <button type="submit">Log in</button>
             </div>
           </section>
-          </body>
+          </div>
     );
 }

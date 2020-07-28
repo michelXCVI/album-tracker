@@ -17,24 +17,21 @@
     border-radius: 10px;
 }
 
-#h1{
-    font-family: "Courier New",Courier,monospace;
+#h1 {
+    font-family: "Courier New", Courier, monospace;
 }
 
-body{
-    background-color: #A6A57A;
-}
 
-button{
+button {
     color: #A6A57A;
     background-color: black;
 }
 
-button:hover{
+button:hover {
     background-color: whitesmoke;
 }
 
-.hr{
+.hr {
     background-color: black;
     border-top: 6px solid black;
 }

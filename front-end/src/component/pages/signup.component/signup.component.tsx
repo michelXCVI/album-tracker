@@ -4,6 +4,7 @@ import { createStyles, makeStyles, Theme } from "@material-ui/core/styles";
 import './signup.component.css';
 import { Link } from "react-router-dom";
 
+
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     root: {
@@ -19,7 +20,7 @@ export const SignupComponent: React.FC = () => {
   const classes = useStyles();
 
   return (
-    <body>
+    <div id="container">
       <div className="wrapper">
         <div className="form-wrapper">
           <h4>Create An Account</h4>
@@ -60,12 +61,12 @@ export const SignupComponent: React.FC = () => {
             />
           </form>
           <small>
-            Already have an account? <Link to="/"> Sign in!</Link>
+            Already have an account? <Link to="/login"> Sign in!</Link>
           </small>
           <br />
           <button type="submit">Sign Up</button>
         </div>
       </div>
-    </body>
+    </div>
   );
 };

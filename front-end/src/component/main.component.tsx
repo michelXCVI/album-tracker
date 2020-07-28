@@ -3,6 +3,7 @@ import { LoginComponent } from './pages/login.component/login.component';
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import { SignupComponent } from './pages/signup.component/signup.component';
 import { NavbarComponent } from './navbar.component';
+import { HomeComponent } from './pages/home.component/home.component';
 
 export const MainComponent: React.FC = () =>{
     return <div>
@@ -17,8 +18,8 @@ export const MainComponent: React.FC = () =>{
                         </Route>
                         <Fragment>
                             <NavbarComponent />
-                            <Route exact path ='/navbar'>
-                                
+                            <Route exact path ='/home'>
+                                <HomeComponent />
                             </Route>
                         </Fragment>
                 </Switch>
